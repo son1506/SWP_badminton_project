@@ -1,0 +1,19 @@
+.app-container {
+    .header-container {
+        position: sticky;
+        top: 0;
+
+        .navbar-nav {
+            z-index: 10;
+            opacity: 0.6;
+
+            .nav-link {
+
+
+                &.active {
+                    color: red;
+                }
+            }
+        }
+    }
+}
